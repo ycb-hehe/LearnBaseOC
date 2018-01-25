@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1D78652019E459007BE5FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D78642019E459007BE5FA /* main.m */; };
+		5C1D78682019E459007BE5FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D78672019E459007BE5FA /* AppDelegate.m */; };
+		5C1D786B2019E459007BE5FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D786A2019E459007BE5FA /* ViewController.m */; };
+		5C1D786E2019E459007BE5FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D786C2019E459007BE5FA /* Main.storyboard */; };
+		5C1D78702019E459007BE5FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D786F2019E459007BE5FA /* Assets.xcassets */; };
+		5C1D78732019E459007BE5FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C1D78712019E459007BE5FA /* LaunchScreen.storyboard */; };
+		5C1D787E2019E459007BE5FA /* HeHeLearnOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D787D2019E459007BE5FA /* HeHeLearnOCTests.m */; };
+		5C1D78892019E459007BE5FA /* HeHeLearnOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C1D78882019E459007BE5FA /* HeHeLearnOCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C1D787A2019E459007BE5FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1D78582019E459007BE5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1D785F2019E459007BE5FA;
+			remoteInfo = HeHeLearnOC;
+		};
+		5C1D78852019E459007BE5FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C1D78582019E459007BE5FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C1D785F2019E459007BE5FA;
+			remoteInfo = HeHeLearnOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C1D78602019E459007BE5FA /* HeHeLearnOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HeHeLearnOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1D78642019E459007BE5FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C1D78662019E459007BE5FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C1D78672019E459007BE5FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C1D78692019E459007BE5FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C1D786A2019E459007BE5FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C1D786D2019E459007BE5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C1D786F2019E459007BE5FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C1D78722019E459007BE5FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C1D78742019E459007BE5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1D78792019E459007BE5FA /* HeHeLearnOCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeHeLearnOCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1D787D2019E459007BE5FA /* HeHeLearnOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeHeLearnOCTests.m; sourceTree = "<group>"; };
+		5C1D787F2019E459007BE5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C1D78842019E459007BE5FA /* HeHeLearnOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HeHeLearnOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1D78882019E459007BE5FA /* HeHeLearnOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeHeLearnOCUITests.m; sourceTree = "<group>"; };
+		5C1D788A2019E45A007BE5FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1D785D2019E459007BE5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D78762019E459007BE5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D78812019E459007BE5FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1D78572019E459007BE5FA = {
+			isa = PBXGroup;
+			children = (
+				5C1D78622019E459007BE5FA /* HeHeLearnOC */,
+				5C1D787C2019E459007BE5FA /* HeHeLearnOCTests */,
+				5C1D78872019E459007BE5FA /* HeHeLearnOCUITests */,
+				5C1D78612019E459007BE5FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C1D78612019E459007BE5FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D78602019E459007BE5FA /* HeHeLearnOC.app */,
+				5C1D78792019E459007BE5FA /* HeHeLearnOCTests.xctest */,
+				5C1D78842019E459007BE5FA /* HeHeLearnOCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1D78622019E459007BE5FA /* HeHeLearnOC */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D78662019E459007BE5FA /* AppDelegate.h */,
+				5C1D78672019E459007BE5FA /* AppDelegate.m */,
+				5C1D78692019E459007BE5FA /* ViewController.h */,
+				5C1D786A2019E459007BE5FA /* ViewController.m */,
+				5C1D786C2019E459007BE5FA /* Main.storyboard */,
+				5C1D786F2019E459007BE5FA /* Assets.xcassets */,
+				5C1D78712019E459007BE5FA /* LaunchScreen.storyboard */,
+				5C1D78742019E459007BE5FA /* Info.plist */,
+				5C1D78632019E459007BE5FA /* Supporting Files */,
+			);
+			path = HeHeLearnOC;
+			sourceTree = "<group>";
+		};
+		5C1D78632019E459007BE5FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D78642019E459007BE5FA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C1D787C2019E459007BE5FA /* HeHeLearnOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D787D2019E459007BE5FA /* HeHeLearnOCTests.m */,
+				5C1D787F2019E459007BE5FA /* Info.plist */,
+			);
+			path = HeHeLearnOCTests;
+			sourceTree = "<group>";
+		};
+		5C1D78872019E459007BE5FA /* HeHeLearnOCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D78882019E459007BE5FA /* HeHeLearnOCUITests.m */,
+				5C1D788A2019E45A007BE5FA /* Info.plist */,
+			);
+			path = HeHeLearnOCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1D785F2019E459007BE5FA /* HeHeLearnOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1D788D2019E45A007BE5FA /* Build configuration list for PBXNativeTarget "HeHeLearnOC" */;
+			buildPhases = (
+				5C1D785C2019E459007BE5FA /* Sources */,
+				5C1D785D2019E459007BE5FA /* Frameworks */,
+				5C1D785E2019E459007BE5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeHeLearnOC;
+			productName = HeHeLearnOC;
+			productReference = 5C1D78602019E459007BE5FA /* HeHeLearnOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C1D78782019E459007BE5FA /* HeHeLearnOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1D78902019E45A007BE5FA /* Build configuration list for PBXNativeTarget "HeHeLearnOCTests" */;
+			buildPhases = (
+				5C1D78752019E459007BE5FA /* Sources */,
+				5C1D78762019E459007BE5FA /* Frameworks */,
+				5C1D78772019E459007BE5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1D787B2019E459007BE5FA /* PBXTargetDependency */,
+			);
+			name = HeHeLearnOCTests;
+			productName = HeHeLearnOCTests;
+			productReference = 5C1D78792019E459007BE5FA /* HeHeLearnOCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C1D78832019E459007BE5FA /* HeHeLearnOCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1D78932019E45A007BE5FA /* Build configuration list for PBXNativeTarget "HeHeLearnOCUITests" */;
+			buildPhases = (
+				5C1D78802019E459007BE5FA /* Sources */,
+				5C1D78812019E459007BE5FA /* Frameworks */,
+				5C1D78822019E459007BE5FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C1D78862019E459007BE5FA /* PBXTargetDependency */,
+			);
+			name = HeHeLearnOCUITests;
+			productName = HeHeLearnOCUITests;
+			productReference = 5C1D78842019E459007BE5FA /* HeHeLearnOCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1D78582019E459007BE5FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ycb;
+				TargetAttributes = {
+					5C1D785F2019E459007BE5FA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					5C1D78782019E459007BE5FA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1D785F2019E459007BE5FA;
+					};
+					5C1D78832019E459007BE5FA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C1D785F2019E459007BE5FA;
+					};
+				};
+			};
+			buildConfigurationList = 5C1D785B2019E459007BE5FA /* Build configuration list for PBXProject "HeHeLearnOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1D78572019E459007BE5FA;
+			productRefGroup = 5C1D78612019E459007BE5FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1D785F2019E459007BE5FA /* HeHeLearnOC */,
+				5C1D78782019E459007BE5FA /* HeHeLearnOCTests */,
+				5C1D78832019E459007BE5FA /* HeHeLearnOCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C1D785E2019E459007BE5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D78732019E459007BE5FA /* LaunchScreen.storyboard in Resources */,
+				5C1D78702019E459007BE5FA /* Assets.xcassets in Resources */,
+				5C1D786E2019E459007BE5FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D78772019E459007BE5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D78822019E459007BE5FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1D785C2019E459007BE5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D786B2019E459007BE5FA /* ViewController.m in Sources */,
+				5C1D78682019E459007BE5FA /* AppDelegate.m in Sources */,
+				5C1D78652019E459007BE5FA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D78752019E459007BE5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D787E2019E459007BE5FA /* HeHeLearnOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C1D78802019E459007BE5FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C1D78892019E459007BE5FA /* HeHeLearnOCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C1D787B2019E459007BE5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1D785F2019E459007BE5FA /* HeHeLearnOC */;
+			targetProxy = 5C1D787A2019E459007BE5FA /* PBXContainerItemProxy */;
+		};
+		5C1D78862019E459007BE5FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C1D785F2019E459007BE5FA /* HeHeLearnOC */;
+			targetProxy = 5C1D78852019E459007BE5FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C1D786C2019E459007BE5FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1D786D2019E459007BE5FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C1D78712019E459007BE5FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C1D78722019E459007BE5FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C1D788B2019E45A007BE5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C1D788C2019E45A007BE5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C1D788E2019E45A007BE5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeHeLearnOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.HeHeLearnOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C1D788F2019E45A007BE5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HeHeLearnOC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.HeHeLearnOC;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C1D78912019E45A007BE5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeHeLearnOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.HeHeLearnOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeHeLearnOC.app/HeHeLearnOC";
+			};
+			name = Debug;
+		};
+		5C1D78922019E45A007BE5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HeHeLearnOCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.HeHeLearnOCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HeHeLearnOC.app/HeHeLearnOC";
+			};
+			name = Release;
+		};
+		5C1D78942019E45A007BE5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeHeLearnOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.HeHeLearnOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeHeLearnOC;
+			};
+			name = Debug;
+		};
+		5C1D78952019E45A007BE5FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HeHeLearnOCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = a.HeHeLearnOCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HeHeLearnOC;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1D785B2019E459007BE5FA /* Build configuration list for PBXProject "HeHeLearnOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D788B2019E45A007BE5FA /* Debug */,
+				5C1D788C2019E45A007BE5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1D788D2019E45A007BE5FA /* Build configuration list for PBXNativeTarget "HeHeLearnOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D788E2019E45A007BE5FA /* Debug */,
+				5C1D788F2019E45A007BE5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C1D78902019E45A007BE5FA /* Build configuration list for PBXNativeTarget "HeHeLearnOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D78912019E45A007BE5FA /* Debug */,
+				5C1D78922019E45A007BE5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C1D78932019E45A007BE5FA /* Build configuration list for PBXNativeTarget "HeHeLearnOCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1D78942019E45A007BE5FA /* Debug */,
+				5C1D78952019E45A007BE5FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1D78582019E459007BE5FA /* Project object */;
+}
